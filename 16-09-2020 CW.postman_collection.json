@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "d068cedf-bcef-4c37-a47b-f1d174c64070",
+		"name": "16-09-2020 CW",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ViewGames",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/Game/ViewGames",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Game",
+						"ViewGames"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ViewDetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/Game/ViewDetails",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Game",
+						"ViewDetails"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddGame",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/Game/AddGame",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Game",
+						"AddGame"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateGame",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/Game/UpdateGame",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Game",
+						"UpdateGame"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteGame",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/Game/DeleteGame",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"Game",
+						"DeleteGame"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
