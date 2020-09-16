@@ -50,6 +50,31 @@
 			"request": {
 				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Title",
+							"value": "Assassins Creed Valhalla",
+							"type": "text"
+						},
+						{
+							"key": "Description",
+							"value": "The newest installment of the Assassins Creed series set in England where you play as a Viking named Eivor.",
+							"type": "text"
+						},
+						{
+							"key": "Publisher",
+							"value": "Ubisoft",
+							"type": "text"
+						},
+						{
+							"key": "Rating",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
 				"url": {
 					"raw": "https://localhost:5001/Game/AddGame",
 					"protocol": "https",

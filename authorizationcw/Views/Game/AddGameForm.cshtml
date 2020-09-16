@@ -1,9 +1,9 @@
 @model authorizationcw.Models.GameModel
 
 <h1 id="newTitle">Add a New Game</h1>
-
+@* form page that will allow a user to enter information using the addgame method to submit a new entry to the db and a button to send it *@
 @using (@Html.BeginForm("AddGame", "Game"))
 {
     <partial name = "_forms" model = "@Model" />
-    <button type = "submit" class = "btn btn-success">Submit</button>
+    <button type = "submit" class = "btn btn-outline-success" id="newbtn">Submit</button>
 }

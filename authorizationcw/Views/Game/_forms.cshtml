@@ -1,23 +1,28 @@
+@* accesses the gamemodel in the models folder *@
 @model authorizationcw.Models.GameModel
 
+@* creates a div that has a label, a text box, and if there is an error it will display an error message *@
 <div class = "form-group">
     @Html.LabelFor(g => g.Title)
     @Html.TextBoxFor(g => g.Title, new {@class = "form-control"})
     @Html.ValidationMessageFor(g => g.Title)
 </div>
 
+@* creates a div that has a label, a text box, and if there is an error it will display an error message *@
 <div class = "form-group">
     @Html.LabelFor(g => g.Description)
     @Html.TextBoxFor(g => g.Description, new {@class = "form-control"})
     @Html.ValidationMessageFor(g => g.Description)
 </div>
 
+@* creates a div that has a label, a text box, and if there is an error it will display an error message *@
 <div class = "form-group">
     @Html.LabelFor(g => g.Publisher)
     @Html.TextBoxFor(g => g.Publisher, new {@class = "form-control"})
     @Html.ValidationMessageFor(g => g.Publisher)
 </div>
 
+@* creates a div that has a label, a text box, and if there is an error it will display an error message *@
 <div class = "form-group">
     @Html.LabelFor(g => g.Rating)
     @Html.TextBoxFor(g => g.Rating, new {@class = "form-control"})

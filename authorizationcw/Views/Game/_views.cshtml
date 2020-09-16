@@ -1,6 +1,8 @@
+@* accesses the gamemodel in the models folder *@
 @model authorizationcw.Models.GameModel
 
-<div class="card" style="width: 18rem;">
+@* bootstrap card that will display the information passed in through the model *@
+<div class="card text-primary border-secondary" style="width: 22rem;">
   <div class="card-body">
     <h5 class="card-title">@Model.Title</h5>
     <h6 class="card-subtitle mb-2 text-muted">Publisher: @Model.Publisher</h6>

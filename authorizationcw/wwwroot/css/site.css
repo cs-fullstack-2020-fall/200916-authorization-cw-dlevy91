@@ -69,3 +69,20 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+/* Css to change error messages to better standout, align titles, and give buttons more space------------------------------------ */
+
+.field-validation-error{
+  color: red;
+}
+
+.input-validation-error{
+  border: 2px red solid;
+}
+
+#newTitle{
+  text-align: center;
+}
+
+#newbtn{
+  margin: 1%;
+}

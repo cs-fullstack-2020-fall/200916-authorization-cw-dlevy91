@@ -1,14 +1,15 @@
 @model authorizationcw.Models.GameModel
 
 <h1 id="newTitle">@Model.Title Details</h1>
-
+@* partial that displays the information of a single entry in the db and has buttons that will allow you to either edit the entry or delete it *@
 <partial name = "_views" model = "@Model" />
 
-
+@* edit button *@
 <a asp-controller="Game" asp-action="UpdateGameForm" asp-route-gameID= "@Model.id">
-    <button class = "btn btn-warning">Edit</button>
+    <button class = "btn btn-outline-warning" id="newbtn">Edit</button>
 </a>
 
+@* delete button *@
 <a asp-controller="Game" asp-action="DeleteConfirm" asp-route-gameID= "@Model.id">
-    <button class = "btn btn-danger">Delete</button>
+    <button class = "btn btn-outline-danger" id="newbtn">Delete</button>
 </a>

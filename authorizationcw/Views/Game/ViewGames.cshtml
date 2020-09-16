@@ -1,12 +1,12 @@
 @model authorizationcw.Data.ApplicationDbContext
 
 <h1 id="newTitle">All Games</h1>
-
+@* foreach iterates through all gamemodel objects in the db and will use the partial inside to create a new entry and a detail button to see more information *@
 @foreach (GameModel g in @Model.games)
 {
     <partial name = "_views" model = "@g" />
 
     <a asp-controller="Game" asp-action="ViewDetails" asp-route-gameID= "@g.id">
-        <button class = "btn btn-primary">Details</button>
+        <button class = "btn btn-outline-primary" id="newbtn">Details</button>
     </a>
 }

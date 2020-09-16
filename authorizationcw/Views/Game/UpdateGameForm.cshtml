@@ -1,7 +1,7 @@
 @model authorizationcw.Models.GameModel
 
 <h1 id="newTitle">Update @Model.Title</h1>
-
+@* similar to the add game form except it will pull up the previous information and allow you to edit it. *@
 @using (@Html.BeginForm("UpdateGame", "Game"))
 {
     <partial name = "_forms" model = "@Model" />
@@ -9,5 +9,5 @@
         @Html.HiddenFor(g => g.id)
     </div>
 
-    <button type = "submit" class = "btn btn-success">Submit</button>
+    <button type = "submit" class = "btn btn-outline-success" id="newbtn">Submit</button>
 }
