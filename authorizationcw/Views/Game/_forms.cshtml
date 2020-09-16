@@ -1,0 +1,25 @@
+@model authorizationcw.Models.GameModel
+
+<div class = "form-group">
+    @Html.LabelFor(g => g.Title)
+    @Html.TextBoxFor(g => g.Title, new {@class = "form-control"})
+    @Html.ValidationMessageFor(g => g.Title)
+</div>
+
+<div class = "form-group">
+    @Html.LabelFor(g => g.Description)
+    @Html.TextBoxFor(g => g.Description, new {@class = "form-control"})
+    @Html.ValidationMessageFor(g => g.Description)
+</div>
+
+<div class = "form-group">
+    @Html.LabelFor(g => g.Publisher)
+    @Html.TextBoxFor(g => g.Publisher, new {@class = "form-control"})
+    @Html.ValidationMessageFor(g => g.Publisher)
+</div>
+
+<div class = "form-group">
+    @Html.LabelFor(g => g.Rating)
+    @Html.TextBoxFor(g => g.Rating, new {@class = "form-control"})
+    @Html.ValidationMessageFor(g => g.Rating)
+</div>

@@ -1,0 +1,14 @@
+@model authorizationcw.Models.GameModel
+
+<h1 id="newTitle">@Model.Title Details</h1>
+
+<partial name = "_views" model = "@Model" />
+
+
+<a asp-controller="Game" asp-action="UpdateGameForm" asp-route-gameID= "@Model.id">
+    <button class = "btn btn-warning">Edit</button>
+</a>
+
+<a asp-controller="Game" asp-action="DeleteConfirm" asp-route-gameID= "@Model.id">
+    <button class = "btn btn-danger">Delete</button>
+</a>

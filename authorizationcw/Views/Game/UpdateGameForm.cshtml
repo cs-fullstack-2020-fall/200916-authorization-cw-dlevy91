@@ -1,0 +1,13 @@
+@model authorizationcw.Models.GameModel
+
+<h1 id="newTitle">Update @Model.Title</h1>
+
+@using (@Html.BeginForm("UpdateGame", "Game"))
+{
+    <partial name = "_forms" model = "@Model" />
+    <div>
+        @Html.HiddenFor(g => g.id)
+    </div>
+
+    <button type = "submit" class = "btn btn-success">Submit</button>
+}

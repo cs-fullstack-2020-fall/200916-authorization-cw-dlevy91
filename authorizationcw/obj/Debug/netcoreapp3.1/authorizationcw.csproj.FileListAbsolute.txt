@@ -386,3 +386,10 @@ C:\Users\student\Code_School\concepts_3\dotnet\mvc\200916-authorization-cw-dlevy
 C:\Users\student\Code_School\concepts_3\dotnet\mvc\200916-authorization-cw-dlevy91\authorizationcw\obj\Debug\netcoreapp3.1\authorizationcw.dll
 C:\Users\student\Code_School\concepts_3\dotnet\mvc\200916-authorization-cw-dlevy91\authorizationcw\obj\Debug\netcoreapp3.1\authorizationcw.pdb
 C:\Users\student\Code_School\concepts_3\dotnet\mvc\200916-authorization-cw-dlevy91\authorizationcw\obj\Debug\netcoreapp3.1\authorizationcw.genruntimeconfig.cache
+C:\Users\student\Code_School\concepts_3\dotnet\mvc\200916-authorization-cw-dlevy91\authorizationcw\obj\Debug\netcoreapp3.1\Razor\Views\Game\AddGameForm.cshtml.g.cs
+C:\Users\student\Code_School\concepts_3\dotnet\mvc\200916-authorization-cw-dlevy91\authorizationcw\obj\Debug\netcoreapp3.1\Razor\Views\Game\ViewGames.cshtml.g.cs
+C:\Users\student\Code_School\concepts_3\dotnet\mvc\200916-authorization-cw-dlevy91\authorizationcw\obj\Debug\netcoreapp3.1\Razor\Views\Game\_forms.cshtml.g.cs
+C:\Users\student\Code_School\concepts_3\dotnet\mvc\200916-authorization-cw-dlevy91\authorizationcw\obj\Debug\netcoreapp3.1\Razor\Views\Game\_views.cshtml.g.cs
+C:\Users\student\Code_School\concepts_3\dotnet\mvc\200916-authorization-cw-dlevy91\authorizationcw\obj\Debug\netcoreapp3.1\Razor\Views\Game\UpdateGameForm.cshtml.g.cs
+C:\Users\student\Code_School\concepts_3\dotnet\mvc\200916-authorization-cw-dlevy91\authorizationcw\obj\Debug\netcoreapp3.1\Razor\Views\Game\ViewDetails.cshtml.g.cs
+C:\Users\student\Code_School\concepts_3\dotnet\mvc\200916-authorization-cw-dlevy91\authorizationcw\obj\Debug\netcoreapp3.1\Razor\Views\Game\DeleteConfirm.cshtml.g.cs

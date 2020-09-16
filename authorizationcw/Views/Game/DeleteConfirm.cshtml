@@ -1,0 +1,16 @@
+@model authorizationcw.Models.GameModel
+
+<div class="jumbotron">
+  <h1 class="display-4">You are deleting @Model.Title </h1>
+  <p class="lead">If you delete this, it will be gone forever. Do you wish to proceed?</p>
+  <hr class="my-4">
+  <p class="lead">
+    <a asp-controller="Game" asp-action="DeleteGame" asp-route-gameID= "@Model.id">
+        <button class = "btn btn-danger">Proceed</button>
+    </a>
+
+    <a asp-controller="Game" asp-action="ViewDetails" asp-route-gameID= "@Model.id">
+        <button class = "btn btn-info">Return to Safety</button>
+    </a>
+  </p>
+</div>

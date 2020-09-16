@@ -1,0 +1,9 @@
+@model authorizationcw.Models.GameModel
+
+<h1 id="newTitle">Add a New Game</h1>
+
+@using (@Html.BeginForm("AddGame", "Game"))
+{
+    <partial name = "_forms" model = "@Model" />
+    <button type = "submit" class = "btn btn-success">Submit</button>
+}

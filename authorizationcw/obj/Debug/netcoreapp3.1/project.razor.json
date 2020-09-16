@@ -14392,6 +14392,16 @@
   "RootNamespace": "authorizationcw",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\student\\Code_School\\concepts_3\\dotnet\\mvc\\200916-authorization-cw-dlevy91\\authorizationcw\\Views\\Game\\UpdateGameForm.cshtml",
+      "TargetPath": "Views\\Game\\UpdateGameForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\student\\Code_School\\concepts_3\\dotnet\\mvc\\200916-authorization-cw-dlevy91\\authorizationcw\\Views\\Game\\AddGameForm.cshtml",
+      "TargetPath": "Views\\Game\\AddGameForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\student\\Code_School\\concepts_3\\dotnet\\mvc\\200916-authorization-cw-dlevy91\\authorizationcw\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -14404,6 +14414,11 @@
     {
       "FilePath": "c:\\Users\\student\\Code_School\\concepts_3\\dotnet\\mvc\\200916-authorization-cw-dlevy91\\authorizationcw\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\student\\Code_School\\concepts_3\\dotnet\\mvc\\200916-authorization-cw-dlevy91\\authorizationcw\\Views\\Game\\_forms.cshtml",
+      "TargetPath": "Views\\Game\\_forms.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14422,6 +14437,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\student\\Code_School\\concepts_3\\dotnet\\mvc\\200916-authorization-cw-dlevy91\\authorizationcw\\Views\\Game\\ViewGames.cshtml",
+      "TargetPath": "Views\\Game\\ViewGames.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\student\\Code_School\\concepts_3\\dotnet\\mvc\\200916-authorization-cw-dlevy91\\authorizationcw\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -14432,8 +14452,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\student\\Code_School\\concepts_3\\dotnet\\mvc\\200916-authorization-cw-dlevy91\\authorizationcw\\Views\\Game\\_views.cshtml",
+      "TargetPath": "Views\\Game\\_views.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\student\\Code_School\\concepts_3\\dotnet\\mvc\\200916-authorization-cw-dlevy91\\authorizationcw\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\student\\Code_School\\concepts_3\\dotnet\\mvc\\200916-authorization-cw-dlevy91\\authorizationcw\\Views\\Game\\DeleteConfirm.cshtml",
+      "TargetPath": "Views\\Game\\DeleteConfirm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\student\\Code_School\\concepts_3\\dotnet\\mvc\\200916-authorization-cw-dlevy91\\authorizationcw\\Views\\Game\\ViewDetails.cshtml",
+      "TargetPath": "Views\\Game\\ViewDetails.cshtml",
       "FileKind": "mvc"
     }
   ],
