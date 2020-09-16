@@ -1,4 +1,6 @@
 # 200916 Authetication/Authorization CRUD CW
+## Score : 5/5
+Nicely done! All reqs met, great comments, and very well organized. 
 
 ### SetUp
 
